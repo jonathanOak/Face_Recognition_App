@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+
+<div class="container">
+<br>
+    <h3 style="color: #00ccff">
+    <span class="content" >Face Recognition </span> Application
+    </h3>
+<br>
+    <p class="content">
+        Face Recognition: This app is driven by a machine learning model.
+        When the user uploads an image the app process the following:
+        <ul>
+            <li>Converts the image into grayscale;</li>
+            <li>Crops the Face;</li>
+            <li>Converts it into eigen image;</li>
+            <li>The model is processed;</li>
+            <li>A prediction is generated.</li>
+            
+        </ul>
+        The functionality is dumped in the flask app.
+    </p>
+    <br>
+    <img src="{{ url_for('static',filename='images/003.png')}}" alt="cogersum.AI" width="500" height="200">
+    <br>
+    <div align="center">
+        <a href="{{ url_for('faceidentifier')}}" class="btn btn-outline-primary">Click here to Try It</a>
+    </div>
+    
+</div>
+
+{% endblock %}
