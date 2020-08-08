@@ -1,5 +1,9 @@
 # Face_Recognition_App
 
+One of the most fun projects I had the pleasure to work on.
+The app process an image that was uploaded by the user and predicts to who the image belongs to.
+The steps to completion were:
+
 ## Structuring the data.
 
 - Using the cv2 library the images were changed into greyscale.
