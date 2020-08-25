@@ -33,7 +33,7 @@ The steps to completion were:
 - ROC and AUC score successfully rate 0.89
 
 
-## Pipeline models
+## Pipeline model
  
 - Step - 1: read image
 
